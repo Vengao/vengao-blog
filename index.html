@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,11 +68,13 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo, Vengao" />
 
 
 
 
+
+  <link rel="alternate" href="/vengao-blog/atom.xml" title="Vengao - Notes" type="application/atom+xml" />
 
 
 
@@ -80,12 +82,12 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Vengao-blog">
+<meta property="og:title" content="Vengao - Notes">
 <meta property="og:url" content="https://vengao.github.io/vengao-blog/index.html">
-<meta property="og:site_name" content="Vengao-blog">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="Vengao - Notes">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vengao-blog">
+<meta name="twitter:title" content="Vengao - Notes">
 
 
 
@@ -93,7 +95,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/vengao-blog/',
-    scheme: 'Muse',
+    scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -101,7 +103,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -121,7 +123,7 @@
 
 
 
-  <title>Vengao-blog</title>
+  <title>Vengao - Notes</title>
   
 
 
@@ -133,7 +135,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -152,7 +154,7 @@
     <div class="custom-logo-site-title">
       <a href="/vengao-blog/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Vengao-blog</span>
+        <span class="site-title">Vengao - Notes</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -182,17 +184,37 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            首页
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-archives">
-          <a href="/vengao-blog/archives/" rel="section">
+        <li class="menu-item menu-item-about">
+          <a href="/vengao-blog/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            Archives
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/vengao-blog/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/vengao-blog/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
           </a>
         </li>
       
@@ -229,16 +251,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://vengao.github.io/vengao-blog/vengao-blog/2018/05/04/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://vengao.github.io/vengao-blog/vengao-blog/2018/05/08/╠ь╩╣╤х/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Vengao">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/vengao-blog/images/avatar.gif">
+      <meta itemprop="image" content="/vengao-blog/images/avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Vengao-blog">
+      <meta itemprop="name" content="Vengao - Notes">
     </span>
 
     
@@ -248,7 +270,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/vengao-blog/2018/05/04/hello-world/" itemprop="url">Hello World</a></h1>
+                <a class="post-title-link" href="/vengao-blog/2018/05/08/╠ь╩╣╤х/" itemprop="url">天使彦</a></h1>
         
 
         <div class="post-meta">
@@ -258,10 +280,10 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-04T18:24:52+08:00">
-                2018-05-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-08T00:00:00+08:00">
+                2018-05-08
               </time>
             
 
@@ -270,6 +292,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/vengao-blog/categories/故事和酒/" itemprop="url" rel="index">
+                    <span itemprop="name">故事和酒</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -299,18 +343,15 @@
 
       
         
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
+          <h3 id="第一季：守护天使"><a href="#第一季：守护天使" class="headerlink" title="第一季：守护天使"></a>第一季：守护天使</h3><p><img src="images/yan.jpg" alt="彦"></p>
+<h4 id="第一章-天使彦"><a href="#第一章-天使彦" class="headerlink" title="第一章:天使彦"></a>第一章:天使彦</h4><p>公元3000年整，位于本星系群（包括银河系和仙女座星云等诸多星系所在的星系团）最中心的天使星云（与银河系同等级的星系）的幻境星系（与太阳系同等级的恒星星系）的天使之城（是一座巨型空岛，与地球同等级的类星球），凯莎（天使星云主神）女王感应到了天使之城新成员的加入。凯莎:“天使1星（天使之城的卫星）有异常能量，应该是有新天使诞生了，辰（凯莎的两个护卫组的其中一组的左翼护卫），你去看看。”辰:“是！”<br>辰展开翅膀向西南方飞去。幻（与辰同组的搭档，右翼护卫）:“女王，莫甘娜（恶魔星云主神）那边好像在银河系有什么动静，用不用……”凯莎:“不用！但是……银河系……太阳系……地球！她应该是盯上地球了。”幻:“那我们不出动吗？”凯莎:“先找到新天使吧，我能感应到她体内比你大数十倍的能量。”幻:“数十倍？我可是右翼护卫！比我大数十倍……她不会也是女王吧！”凯莎:“不可能，如果她能为我所用，我到愿意让她做我的继承人，至少天使星云的安全问题解决了。”幻:“……”<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/vengao-blog/2018/05/08/╠ь╩╣╤х/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -379,6 +420,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/vengao-blog/images/avatar.png"
+                alt="Vengao" />
+            
               <p class="site-author-name" itemprop="name">Vengao</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
@@ -388,22 +433,57 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/vengao-blog/archives/">
+                <a href="/vengao-blog/archives">
               
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">posts</span>
+                  <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
             
 
           </nav>
 
           
+            <div class="feed-link motion-element">
+              <a href="/vengao-blog/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/Vengao" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -441,7 +521,7 @@
 </div>
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
@@ -449,7 +529,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -496,6 +576,8 @@
   
 
 
+  
+
 
 
 
@@ -536,6 +618,11 @@
     <script type="text/javascript" src="/vengao-blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
+  
+  
+    <script type="text/javascript" src="/vengao-blog/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
 
   
 
@@ -548,6 +635,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/vengao-blog/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/vengao-blog/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
 
   
 
